@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soil Pullution</title>
+    <link rel="stylesheet" href="mini.css">
+ 
+</head>
+<body>
+	<!---header--->
+	<div class="hero">
+		<nav>
+			<img src="menu.png" class="menu-img">
+		<!----<img src="C:\users\hp\Desktop\template\images\logo.png" class="logo">---> 
+		<h1 style="font-size:40px">Soil <span style="color: #00986f;">Pollution</span></h1>
+			<ul>
+				<li><a href="C:\Users\hp\Desktop\soil pollution\index.html">Home</a></li>
+				<li><a href="C:\Users\hp\Desktop\soil pollution\causes.html">Causes</a></li>
+				<li><a href="C:\Users\hp\Desktop\soil pollution\effect.html">Effects</a></li>
+				<li><a href="C:\Users\hp\Desktop\soil pollution\signinpage.html">Login</a></li>
+				<li><a href="C:\Users\hp\Desktop\soil pollution\About Us.html">About us</a></li>
+				<li><a href="C:\Users\hp\Desktop\soil pollution\solution.html">Solutions</a></li>
+				<li><a href="C:\Users\hp\Desktop\soil pollution\Types.html">Types </a></li>
+
+
+			</ul>
+			<button type="button" onclick="togglebtn()" id="btn"><span></span></button>
+		</nav>
+<!---lamp-container-->
+		<div class="lamp-container">
+			<img src="lamp.png" class="lamp">
+			<img src="light.png" class="light" id="light">
+			
+		</div>
+
+		<div class="text-container">
+			<h1>Soil pollution damage the life </h1>
+			<p>Soil contamination, soil pollution, or land pollution 
+				as a part of land degradation is caused by the presence of xenobiotic (human-made) chemicals
+				 or other alteration in the natural soil environment.</p>
+			<a href="">Check all the icans</a>
+
+		<div class="control">
+			<p>04</p>
+			<div class="line"><span></span></div>
+			<p>06</p>
+		</div>
+
+		</div>
+		</div>
+		<!---footer-------->
+		<footer>  
+			<ul>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Privacy policy</a></li>
+				<li><a href="#">Terms of Use</a></li>
+				<li><a href="#">Refund policy</a></li>
+			</ul>
+		</footer>
+	
+ 
+
+<!-----------------javascript for toggle btn------------------------>
+	<script>
+		var btn = document.getElementById("btn");
+		var light = document.getElementById("light");
+
+		function togglebtn(){
+			btn.classList.toggle("active");
+			light.classList.toggle("on");
+		
+		}
+	</script>
+
+</body>
+
+</html>
